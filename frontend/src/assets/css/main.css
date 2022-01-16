@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+  font-family: NanumSquareRound;
+
+  src: url("../fonts/NanumSquareRoundB.woff") format("woff");
+  
+}
+
+* {
+  font-family: NanumSquareRound;
+  letter-spacing: 0.1px; 
+}
+
+.profile-img {
+    width: 120px;
+}
+
+.profile-mileage {
+  font-size: medium;
+}
+
+.joined-group-btn {
+  border: 3px solid #FFB685;
+  background-color: white !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 60px;
+  cursor: pointer;
+}
+
+.header {
+  padding: 1rem;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  /* margin-bottom: 50px; */
+  /* z-index: 1; */
+  background-color: white;
+}
+
+.header span {
+  margin: 5px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+a{
+  text-decoration:none !important;
+  color: black !important;
+}
+
+.temp-box{
+  border: 0.3px solid grey;
+  height: 200px;
+  width: 100vw;
+  text-align: center;
+}
+
+.search-bar {
+  width: 400px;
+}
